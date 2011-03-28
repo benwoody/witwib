@@ -5,6 +5,32 @@
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
+    <script src="javascript/jquery-1.5.1.min.js"></script>
+<script>
+    /**
+    * This function is the callback which is passed the result from the .getCurrentPosition()
+    * function. The pos argument can contain more information than just the latitude/longitude,
+    * such as altitude, accuracy and speed information.
+    *
+    * @param object pos The result from the getCurrentPosition() call
+    */
+    function myCallback(pos)
+    {
+        var myLatitude  = pos.latitude;
+        var myLongitude = pos.longitude;
+    }
+
+    /**
+    * Test for GeoLocation support and make the call
+    */
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(myCallback);
+    } else {
+        alert("Sorry, your browser doesn't appear to support GeoLocation");
+    }
+
+</script>
+
 </head>
 <body>
 
