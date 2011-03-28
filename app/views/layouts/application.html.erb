@@ -6,33 +6,34 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
     <script src="javascript/jquery-1.5.1.min.js"></script>
-<script>
-    /**
-    * This function is the callback which is passed the result from the .getCurrentPosition()
-    * function. The pos argument can contain more information than just the latitude/longitude,
-    * such as altitude, accuracy and speed information.
-    *
-    * @param object pos The result from the getCurrentPosition() call
-    */
-    function myCallback(pos)
-    {
-        var myLatitude  = pos.latitude;
-        var myLongitude = pos.longitude;
-    }
+    <script type="text/javascript">
+        function body_onLoad() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(geo_onSuccess, geo_onError);
+            } else {
+                geo_onError();
+            }
+        }
 
-    /**
-    * Test for GeoLocation support and make the call
-    */
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(myCallback);
-    } else {
-        alert("Sorry, your browser doesn't appear to support GeoLocation");
-    }
+        function geo_onSuccess(pos) {
+            document.getElementById("timestamp").innerHTML = new Date().toLocaleString();
 
-</script>
+            document.getElementById("accuracySpan").innerHTML = pos.coords.accuracy;
+            document.getElementById("altitudeSpan").innerHTML = pos.coords.aktitude;
+            document.getElementById("altitudeAccuracySpan").innerHTML = pos.coords.altitudeAccuracy;
+            document.getElementById("headingSpan").innerHTML = pos.coords.heading;
+            document.getElementById("latitudeSpan").innerHTML = pos.coords.latitude;
+            document.getElementById("longitudeSpan").innerHTML = pos.coords.longitude;
+            document.getElementById("speedSpan").innerHTML = pos.coords.speed;
+        }
+
+        function geo_onError() {
+            alert("Unable to get latitude/longitude, or browser does not support geolocation API.");
+        }
+    </script>
 
 </head>
-<body>
+<body onload="body_onLoad();">
 
 <%= yield %>
 
