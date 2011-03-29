@@ -1,11 +1,13 @@
 class CreatePosts < ActiveRecord::Migration
   def self.up
     create_table :posts do |t|
-      t.string :latlong
+      t.string :latitude
+      t.string :longitude
       t.text :note
 
       t.timestamps
     end
+    remove_columb :latlong
   end
 
   def self.down

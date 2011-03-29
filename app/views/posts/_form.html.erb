@@ -11,7 +11,7 @@
     </div>
   <% end %>
 
-
+<!-- Lists for current Accuracy(in meters), Altitude, AltAccuracy, Heading, Lat and Long.  Then Timestamped -->
     <table>
     <tr>
         <th>accuracy:</th>
@@ -42,12 +42,15 @@
 
   <div class="field">
     <%= f.label :latlong %><br />
-    <%= f.text_area :latlong %>
+    
   </div>
+
   <div class="field">
     <%= f.label :note %><br />
     <%= f.text_area :note %>
   </div>
+
+    <input type="hidden" name="post[latlong]" id="post_latlong">
   <div class="actions">
     <%= f.submit %>
   </div>
