@@ -11,46 +11,21 @@
     </div>
   <% end %>
 
-<!-- Lists for current Accuracy(in meters), Altitude, AltAccuracy, Heading, Lat and Long.  Then Timestamped -->
+<!-- Lists for current Lat and Long.  Then Timestamped -->
     <table>
     <tr>
-        <th>accuracy:</th>
-        <td><span id="accuracySpan"></span></td>
-    </tr>
-    <tr>
-        <th>altitude:</th>
-        <td><span id="altitudeSpan"></span></td>
-    </tr>
-    <tr>
-        <th>altitudeAccuracy:</th>
-        <td><span id="altitudeAccuracySpan"></span></td>
-    </tr>
-    <tr>
-        <th>heading:</th>
-        <td><span id="headingSpan"></span></td>
-    </tr>
-    <tr>
-        <th>latitude:</th>
-        <td><span id="latitudeSpan"></span></td>
-    </tr>
-    <tr>
-        <th>longitude:</th>
-        <td><span id="longitudeSpan"></span></td>
+        <td><a id="latitude"/> , <a id="longitude"/></td>
     </tr>
     </table>
     Timestamp: <p id="timestamp"/>
 
-  <div class="field">
-    <%= f.label :latlong %><br />
-    
-  </div>
 
   <div class="field">
     <%= f.label :note %><br />
     <%= f.text_area :note %>
   </div>
 
-    <input type="hidden" name="post[latlong]" id="post_latlong">
+  <input type="hidden" name="post[latlong]" id="post_latitude" name="latitude">
   <div class="actions">
     <%= f.submit %>
   </div>
