@@ -1,3 +1,4 @@
+<center>
 <%= form_for(@post) do |f| %>
   <% if @post.errors.any? %>
     <div id="error_explanation">
@@ -11,22 +12,23 @@
     </div>
   <% end %>
 
-<!-- Lists for current Lat and Long.  Then Timestamped -->
-    <table>
-    <tr>
-        <td><a id="latitude"/> , <a id="longitude"/></td>
-    </tr>
-    </table>
-    Timestamp: <p id="timestamp"/>
-
-
+<!-- Lists for current Lat and Long.  Notepad, Then Timestamped -->
+  <div>
+    <p id="latitude"/><p id="longitude"/>
+  </div>
+  <div class="field">
+    <%= f.label :latlong %><br />
+    <%= f.text_field :latlong %>
+  </div>
   <div class="field">
     <%= f.label :note %><br />
     <%= f.text_area :note %>
   </div>
 
-  <input type="hidden" name="post[latlong]" id="post_latitude" name="latitude">
+  <!--<input type="hidden" name="post[latlong]" id="longitude"'>-->
+  Submitted at:<p id="timestamp"/>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+</center>

@@ -1,4 +1,4 @@
-<h1>Listing posts</h1>
+<h1>Listing Locations</h1>
 
 <table>
   <tr>
@@ -15,7 +15,7 @@
     <td><%= post.note %></td>
     <td><%= link_to 'Show', post %></td>
     <td><%= link_to 'Edit', edit_post_path(post) %></td>
-    <td><%= link_to 'Delete', post, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= button_to 'Delete', post, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
