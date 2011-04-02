@@ -14,7 +14,7 @@
 
 <!-- Lists for current Lat and Long.  Notepad, Then Timestamped -->
   <div>
-    <p id="latitude"/><p id="longitude"/>
+    <%= content_tag(:span, "", :id => "latitude") %>, <%= content_tag(:span, "", :id => "longitude") %>
   </div>
   <div class="field">
     <%= f.label :latlong %><br />
