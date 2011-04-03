@@ -12,6 +12,7 @@
     </div>
   <% end %>
 
+
 <!-- Lists for current Lat and Long.  Notepad, Then Timestamped -->
   <div>
     <%= content_tag(:span, "", :id => "latitude") %>, <%= content_tag(:span, "", :id => "longitude") %>
@@ -25,7 +26,7 @@
     <%= f.text_area :note %>
   </div>
 
-  <!--<input type="hidden" name="post[latlong]" id="longitude"'>-->
+  <!-- <input type="hidden" name="post[latlong]" id="longitude"'> -->
   Submitted at:<p id="timestamp"/>
   <div class="actions">
     <%= f.submit %>
