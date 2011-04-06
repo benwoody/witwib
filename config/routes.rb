@@ -1,6 +1,6 @@
 Witwib2::Application.routes.draw do
   resources :posts
-  get "users/new"
+  get "posts/new"
 
   match '/add', :to => 'posts#new'
 
