@@ -7,7 +7,7 @@ class CreatePosts < ActiveRecord::Migration
 
       t.timestamps
     end
-    remove_columb :latlong
+
   end
 
   def self.down
