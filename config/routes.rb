@@ -4,6 +4,8 @@ Witwib2::Application.routes.draw do
 
   match '/add', :to => 'posts#new'
 
+  resources :posts
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
