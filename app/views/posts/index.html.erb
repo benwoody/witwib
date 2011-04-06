@@ -1,25 +1,27 @@
 <h1>Listing Locations</h1>
-
+<div id="location_list">
 <table>
   <tr>
-    <th>Latlong</th>
-    <th>Note</th>
+    <th>Latitude, Longitude</th>
+    <th>Notes</th>
+    <th>Created</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
 
 <% @posts.each do |post| %>
-  <tr>
-    <td><%= post.latlong %></td>
-    <td><%= post.note %></td>
-    <td><%= link_to 'Show', post %></td>
-    <td><%= link_to 'Edit', edit_post_path(post) %></td>
-    <td><%= button_to 'Delete', post, :confirm => 'Are you sure?', :method => :delete %></td>
+  <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+    <td class="list_description"><%= post.latlong %></td>
+    <td class="list_description"><%= post.note %></td>
+    <td class="list_description"><%= post.created_at %></td>
+    <td class="list_actions"><%= link_to 'Show', post %></td>
+    <td class="list_actions"><%= link_to 'Edit', edit_post_path(post) %></td>
+    <td class="list_actions"><%= link_to 'Delete', post, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
-
+</div>
 <br />
 
 <%= link_to 'New Post', new_post_path %>
