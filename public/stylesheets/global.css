@@ -1,0 +1,60 @@
+/* Global styles */
+
+#latlong #notice {
+        color: #000;
+        border: 2px solid red;
+        padding: 1em;
+        margin-bottom: 2em;
+        background-color: #f0f0f0;
+        font: bold smaller sans-serif;
+}
+
+
+#latlong h1 {
+        font:  150% sans-serif;
+        color: #226;
+        border-bottom: 3px dotted #77d;
+}
+
+/* Styles for products/index */
+
+#location_list table {
+        border-collapse: collapse;
+}
+
+#location_list table tr td {
+        padding: 6px;
+        vertical-align: top;
+}
+
+#location_list .list_description {
+  width:        20%;
+}
+
+#location_list .list_description dl {
+        margin: 0;
+}
+
+#location_list .list_description dt {
+	color:        #244;
+	font-weight:  bold;
+	font-size:    larger;
+}
+
+#location_list .list_description dd {
+        margin: 0;
+}
+
+#location_list .list_actions {
+  font-size:    x-small;
+  text-align:   right;
+  padding-left: 1em;
+}
+
+#location_list .list_line_even {
+  background:   #00CCFF;
+}
+
+#location_list .list_line_odd {
+  background:   #FFF;
+}
