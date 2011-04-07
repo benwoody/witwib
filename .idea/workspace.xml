@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e92236-061d-44c6-9e09-8c5a3a1ad5d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/witwib" afterPath="$PROJECT_DIR$/witwib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" afterPath="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" />
     </list>
     <ignored path="witwib2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,19 +99,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20110407035613_update_add_latlong.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20110407035613_update_add_latlong.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20110407035613_update_add_latlong.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.10738255">
+            <state line="4" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20110327052309_create_posts.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="20110327052309_create_posts.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="5" column="25" selection-start="163" selection-end="163" vertical-scroll-proportion="0.13422818">
               <folding />
             </state>
           </provider>
@@ -144,12 +143,12 @@
         <option value="$PROJECT_DIR$/public/stylesheets/global.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/.gitignore" />
-        <option value="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20110407035613_update_add_latlong.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" />
       </list>
     </option>
   </component>
@@ -789,16 +788,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110407035613_update_add_latlong.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+        <state line="4" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110407035613_update_add_latlong.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.10738255">
+        <state line="5" column="25" selection-start="163" selection-end="163" vertical-scroll-proportion="0.13422818">
           <folding />
         </state>
       </provider>
