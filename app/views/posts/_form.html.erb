@@ -17,16 +17,14 @@
     <%= content_tag(:span, "", :id => "latitude") %>, <%= content_tag(:span, "", :id => "longitude") %>
   </div>
   <div class="field">
-    <%= f.label :latlong %><br />
+    Please copy & past the above coordinates in the field below:<br />
     <%= f.text_field :latlong %>
   </div>
   <div class="field">
-    <%= f.label :note %><br />
+    Give a brief discription of where you are(Address, Business, What you are doing, Email, Name):<br />
     <%= f.text_area :note %>
   </div>
 
-
-  Submitted at:<p id="timestamp"/>
   <div class="actions">
     <%= f.submit %>
   </div>

@@ -1,3 +1,18 @@
-Where in the World is Ben?
+                            **************************************
+                            *                                    *
+                            *    Where in the World is ...       *
+                            *                                    *
+                            **************************************
 
-Adding Changelog later.
+Application to show off Geolocation features in HTML5 and Javascript.  Built with the Ruby on Rails framework.
+
+Live on Heroku at http://witwib.heroku.com
+
+Feel free to add your location.  Accept permissions to allow WitWiB to find your location.  Copy/Past the
+Latitude and Longitude.  Then add a note about your location.  Please include:
+
+    * Address
+    * Business Name
+    * Your Email
+    * Your Name
+
