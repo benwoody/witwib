@@ -10,7 +10,7 @@
 
 <% @posts.each do |post| %>
   <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
-    <td class="list_description"><%= post.latitude %></td>
+    <td class="list_description"><%= post.longitude %></td>
     <td class="list_description"><%= post.note %></td>
     <td class="list_description"><%= post.created_at %></td>
   </tr>
