@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e92236-061d-44c6-9e09-8c5a3a1ad5d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/witwib" afterPath="$PROJECT_DIR$/witwib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" afterPath="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" />
-    </list>
+    <list default="true" id="f4e92236-061d-44c6-9e09-8c5a3a1ad5d6" name="Default" comment="" />
     <ignored path="witwib2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
