@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e92236-061d-44c6-9e09-8c5a3a1ad5d6" name="Default" comment="" />
+    <list default="true" id="f4e92236-061d-44c6-9e09-8c5a3a1ad5d6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+    </list>
     <ignored path="witwib2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="291" selection-end="291" vertical-scroll-proportion="-6.857143">
+            <state line="12" column="49" selection-start="290" selection-end="290" vertical-scroll-proportion="0.33802816">
               <folding />
             </state>
           </provider>
@@ -96,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="0.53521127">
+            <state line="19" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-10.857142">
               <folding />
             </state>
           </provider>
@@ -143,8 +145,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20110327052309_create_posts.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
       </list>
     </option>
   </component>
@@ -732,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="291" selection-end="291" vertical-scroll-proportion="-6.857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="97" selection-end="97" vertical-scroll-proportion="-2.857143">
@@ -769,7 +764,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="0.53521127">
+        <state line="19" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-10.857142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="49" selection-start="290" selection-end="290" vertical-scroll-proportion="0.33802816">
           <folding />
         </state>
       </provider>
